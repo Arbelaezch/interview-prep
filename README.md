@@ -6,7 +6,7 @@ A comprehensive collection of coding challenges, algorithm implementations, and 
 
 These are the foundational concepts that appear most frequently in technical interviews and form the bedrock of computer science knowledge:
 
-- [x] **Arrays & Dynamic Arrays**: Implementation, manipulation, and common operations
+- [ ] **Arrays & Dynamic Arrays**: Implementation, manipulation, and common operations
 - [ ] **String Manipulation**: Pattern matching, parsing, and transformation techniques
 - [ ] **Two Pointers**: Solving problems with multiple pointers traversing data structures
 - [ ] **Grids & Matrices**: 2D array traversal, transformation, and search algorithms
@@ -44,12 +44,6 @@ These are specialized topics that demonstrate deeper computer science knowledge:
 - [ ] **Advanced Dynamic Programming**: 2D states, state compression, and complex optimizations
 - [ ] **Bit Manipulation**: Bitwise operations and their algorithmic applications
 - [ ] **Mathematical Algorithms**: Number theory, combinatorics, and probability
-
-Progress indicators:
-- ⬜ Not started
-- 🟨 In progress
-- ✅ Completed
-- 🔄 Under review
 
 ## Repository Organization
 
