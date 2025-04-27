@@ -2,7 +2,7 @@
 
 A comprehensive collection of coding challenges, algorithm implementations, and interview preparation materials. This repository documents my journey to master technical interview skills through deliberate practice and structured learning. My preparation is organized into three tiers based on frequency and importance in technical interviews. This approach is inspired by [Beyond Cracking the Coding Interview](https://www.beyondctci.com/) with some personal modifications.
 
-### TIER 1 - Core Fundamentals
+### [TIER 1 - Core Fundamentals](./tier-1-core)
 
 These are the foundational concepts that appear most frequently in technical interviews and form the bedrock of computer science knowledge:
 
@@ -19,7 +19,7 @@ These are the foundational concepts that appear most frequently in technical int
 - [ ] **Trees**: Binary trees, BSTs, traversals, and recursive tree operations
 - [ ] **Graphs**: Representation, traversal (BFS/DFS), and basic algorithms
 
-### TIER 2 - Important But Less Fundamental
+### [TIER 2 - Important But Less Fundamental](./tier-2-important)
 
 These topics are common in interviews but build upon the core fundamentals:
 
@@ -31,7 +31,7 @@ These topics are common in interviews but build upon the core fundamentals:
 - [ ] **Dynamic Programming**: Memoization and tabulation approaches to optimization problems
 - [ ] **Greedy Algorithms**: Making locally optimal choices for global solutions
 
-### TIER 3 - Advanced Topics
+### [TIER 3 - Advanced Topics](./tier-3)
 
 These are specialized topics that demonstrate deeper computer science knowledge:
 
@@ -48,6 +48,7 @@ These are specialized topics that demonstrate deeper computer science knowledge:
 ## Repository Organization
 
 Each problem solution includes:
+
 - Problem statement and constraints
 - My approach with time and space complexity analysis
 - Implementation in my preferred language(s)
@@ -56,6 +57,7 @@ Each problem solution includes:
 ## Resources
 
 Key resources I'm using in my preparation:
+
 - LeetCode
 - "Cracking the Coding Interview" by Gayle Laakmann McDowell
 - "Beyond Cracking the Coding Interview" also by Gayle
