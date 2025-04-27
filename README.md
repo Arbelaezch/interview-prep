@@ -1,6 +1,6 @@
 # Software Development Interview Preparation
 
-A comprehensive collection of coding challenges, algorithm implementations, and interview preparation materials. This repository documents my journey to master technical interview skills through deliberate practice and structured learning. My preparation is organized into three tiers based on frequency and importance in technical interviews. This approach is inspired by (Beyond Cracking the Coding Interview)[https://www.beyondctci.com/] with some personal modifications.
+A comprehensive collection of coding challenges, algorithm implementations, and interview preparation materials. This repository documents my journey to master technical interview skills through deliberate practice and structured learning. My preparation is organized into three tiers based on frequency and importance in technical interviews. This approach is inspired by [Beyond Cracking the Coding Interview](https://www.beyondctci.com/) with some personal modifications.
 
 ### TIER 1 - Core Fundamentals
 
