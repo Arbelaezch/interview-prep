@@ -6,18 +6,115 @@ A comprehensive collection of coding challenges, algorithm implementations, and 
 
 These are the foundational concepts that appear most frequently in technical interviews and form the bedrock of computer science knowledge:
 
-- [ ] **Arrays & Dynamic Arrays**: Implementation, manipulation, and common operations
-- [ ] **String Manipulation**: Pattern matching, parsing, and transformation techniques
-- [ ] **Two Pointers**: Solving problems with multiple pointers traversing data structures
-- [ ] **Grids & Matrices**: 2D array traversal, transformation, and search algorithms
-- [ ] **Binary Search**: Implementation and applications beyond simple sorted arrays
-- [ ] **Hash Maps & Sets**: Utilizing hash-based data structures for efficient lookups
-- [ ] **Stacks and Queues**: LIFO and FIFO data structures and their applications
-- [ ] **Recursion**: Recursive problem solving, including base cases and recursive steps
-- [ ] **Sorting Algorithms**: Implementation and analysis of common sorting techniques
-- [ ] **Linked Lists**: Singly and doubly linked lists, operations, and common patterns
-- [ ] **Trees**: Binary trees, BSTs, traversals, and recursive tree operations
-- [ ] **Graphs**: Representation, traversal (BFS/DFS), and basic algorithms
+## Arrays & Dynamic Arrays
+Implementation, manipulation, and common operations
+
+- [x] [Two Sum](/tier-1/arrays/EASY-two-sum)
+- [ ] [Contains Duplicate](/tier-1/arrays/EASY-contains-duplicate)
+- [ ] [Maximum Subarray](/tier-1/arrays/MEDIUM-maximum-subarray)
+- [ ] [Product of Array Except Self](/tier-1/arrays/MEDIUM-product-of-array-except-self)
+- [ ] [Move Zeroes](/tier-1/arrays/EASY-move-zeroes)
+
+## String Manipulation
+Pattern matching, parsing, and transformation techniques
+
+- [ ] [Valid Anagram](/tier-1/string-manipulation/EASY-valid-anagram)
+- [ ] [Valid Palindrome](/tier-1/string-manipulation/EASY-valid-palindrome)
+- [ ] [Longest Substring Without Repeating Characters](/tier-1/string-manipulation/MEDIUM-longest-substring-without-repeating-characters)
+- [ ] [String to Integer (atoi)](/tier-1/string-manipulation/MEDIUM-string-to-integer-atoi)
+- [ ] [Longest Palindromic Substring](/tier-1/string-manipulation/MEDIUM-longest-palindromic-substring)
+
+## Two Pointers
+Solving problems with multiple pointers traversing data structures
+
+- [ ] [Valid Palindrome](/tier-1/two-pointers/EASY-valid-palindrome)
+- [ ] [Container With Most Water](/tier-1/two-pointers/MEDIUM-container-with-most-water)
+- [ ] [3Sum](/tier-1/two-pointers/MEDIUM-3sum)
+- [ ] [Remove Duplicates from Sorted Array](/tier-1/two-pointers/EASY-remove-duplicates-from-sorted-array)
+- [ ] [Trapping Rain Water](/tier-1/two-pointers/HARD-trapping-rain-water)
+
+## Grids & Matrices
+2D array traversal, transformation, and search algorithms
+
+- [ ] [Spiral Matrix](/tier-1/grids-matrices/MEDIUM-spiral-matrix)
+- [ ] [Set Matrix Zeroes](/tier-1/grids-matrices/MEDIUM-set-matrix-zeroes)
+- [ ] [Rotate Image](/tier-1/grids-matrices/MEDIUM-rotate-image)
+- [ ] [Word Search](/tier-1/grids-matrices/MEDIUM-word-search)
+- [ ] [Game of Life](/tier-1/grids-matrices/MEDIUM-game-of-life)
+
+## Binary Search
+Implementation and applications beyond simple sorted arrays
+
+- [ ] [Binary Search](/tier-1/binary-search/EASY-binary-search)
+- [ ] [Search in Rotated Sorted Array](/tier-1/binary-search/MEDIUM-search-in-rotated-sorted-array)
+- [ ] [Find First and Last Position of Element in Sorted Array](/tier-1/binary-search/MEDIUM-find-first-and-last-position)
+- [ ] [Search a 2D Matrix](/tier-1/binary-search/MEDIUM-search-a-2d-matrix)
+- [ ] [Find Peak Element](/tier-1/binary-search/MEDIUM-find-peak-element)
+
+## Hash Maps & Sets
+Utilizing hash-based data structures for efficient lookups
+
+- [ ] [Group Anagrams](/tier-1/hash-maps-sets/MEDIUM-group-anagrams)
+- [ ] [LRU Cache](/tier-1/hash-maps-sets/MEDIUM-lru-cache)
+- [ ] [Longest Consecutive Sequence](/tier-1/hash-maps-sets/MEDIUM-longest-consecutive-sequence)
+- [ ] [Copy List with Random Pointer](/tier-1/hash-maps-sets/MEDIUM-copy-list-with-random-pointer)
+- [ ] [Top K Frequent Elements](/tier-1/hash-maps-sets/MEDIUM-top-k-frequent-elements)
+
+## Stacks and Queues
+LIFO and FIFO data structures and their applications
+
+- [ ] [Valid Parentheses](/tier-1/stacks-queues/EASY-valid-parentheses)
+- [ ] [Min Stack](/tier-1/stacks-queues/MEDIUM-min-stack)
+- [ ] [Implement Queue using Stacks](/tier-1/stacks-queues/EASY-implement-queue-using-stacks)
+- [ ] [Daily Temperatures](/tier-1/stacks-queues/MEDIUM-daily-temperatures)
+- [ ] [Evaluate Reverse Polish Notation](/tier-1/stacks-queues/MEDIUM-evaluate-reverse-polish-notation)
+
+## Recursion
+Recursive problem solving, including base cases and recursive steps
+
+- [ ] [Subsets](/tier-1/recursion/MEDIUM-subsets)
+- [ ] [Fibonacci Number](/tier-1/recursion/EASY-fibonacci-number)
+- [ ] [Permutations](/tier-1/recursion/MEDIUM-permutations)
+- [ ] [Generate Parentheses](/tier-1/recursion/MEDIUM-generate-parentheses)
+- [ ] [Combination Sum](/tier-1/recursion/MEDIUM-combination-sum)
+
+## Sorting Algorithms
+Implementation and analysis of common sorting techniques
+
+- [ ] [Merge Intervals](/tier-1/sorting/MEDIUM-merge-intervals)
+- [ ] [Sort Colors](/tier-1/sorting/MEDIUM-sort-colors)
+- [ ] [Insert Interval](/tier-1/sorting/MEDIUM-insert-interval)
+- [ ] [Meeting Rooms II](/tier-1/sorting/MEDIUM-meeting-rooms-ii)
+- [ ] [Kth Largest Element in an Array](/tier-1/sorting/MEDIUM-kth-largest-element-in-array)
+
+## Linked Lists
+Singly and doubly linked lists, operations, and common patterns
+
+- [ ] [Reverse Linked List](/tier-1/linked-lists/EASY-reverse-linked-list)
+- [ ] [Linked List Cycle](/tier-1/linked-lists/EASY-linked-list-cycle)
+- [ ] [Merge Two Sorted Lists](/tier-1/linked-lists/EASY-merge-two-sorted-lists)
+- [ ] [Remove Nth Node From End of List](/tier-1/linked-lists/MEDIUM-remove-nth-node-from-end)
+- [ ] [Palindrome Linked List](/tier-1/linked-lists/EASY-palindrome-linked-list)
+
+## Trees
+Binary trees, BSTs, traversals, and recursive tree operations
+
+- [ ] [Maximum Depth of Binary Tree](/tier-1/trees/EASY-maximum-depth-of-binary-tree)
+- [ ] [Invert Binary Tree](/tier-1/trees/EASY-invert-binary-tree)
+- [ ] [Validate Binary Search Tree](/tier-1/trees/MEDIUM-validate-binary-search-tree)
+- [ ] [Binary Tree Level Order Traversal](/tier-1/trees/MEDIUM-binary-tree-level-order-traversal)
+- [ ] [Lowest Common Ancestor of a Binary Tree](/tier-1/trees/MEDIUM-lowest-common-ancestor)
+
+## Graphs
+Representation, traversal (BFS/DFS), and basic algorithms
+
+- [ ] [Number of Islands](/tier-1/graphs/MEDIUM-number-of-islands)
+- [ ] [Course Schedule](/tier-1/graphs/MEDIUM-course-schedule)
+- [ ] [Clone Graph](/tier-1/graphs/MEDIUM-clone-graph)
+- [ ] [Pacific Atlantic Water Flow](/tier-1/graphs/MEDIUM-pacific-atlantic-water-flow)
+- [ ] [Word Ladder](/tier-1/graphs/HARD-word-ladder)
+
+
 
 ### [TIER 2 - Important But Less Fundamental](./tier-2-important)
 
