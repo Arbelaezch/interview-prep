@@ -2,7 +2,7 @@
 
 A comprehensive collection of coding challenges, algorithm implementations, and interview preparation materials. This repository documents my journey to master technical interview skills through deliberate practice and structured learning. My preparation is organized into three tiers based on frequency and importance in technical interviews. This approach is inspired by [Beyond Cracking the Coding Interview](https://www.beyondctci.com/) with some personal modifications.
 
-### [TIER 1 - Core Fundamentals](./tier-1-core)
+### [TIER 1 - Core Fundamentals](./tier-1)
 
 These are the foundational concepts that appear most frequently in technical interviews and form the bedrock of computer science knowledge:
 
@@ -116,7 +116,7 @@ Representation, traversal (BFS/DFS), and basic algorithms
 
 
 
-### [TIER 2 - Important But Less Fundamental](./tier-2-important)
+### [TIER 2 - Important But Less Fundamental](./tier-2)
 
 These topics are common in interviews but build upon the core fundamentals:
 
