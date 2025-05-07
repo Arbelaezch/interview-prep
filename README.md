@@ -11,7 +11,7 @@ Implementation, manipulation, and common operations
 
 - [x] [Two Sum](/tier-1/arrays/EASY-two-sum)
 - [x] [Contains Duplicate](/tier-1/arrays/EASY-contains-duplicate)
-- [ ] [Maximum Subarray](/tier-1/arrays/MEDIUM-maximum-subarray)
+- [x] [Maximum Subarray](/tier-1/arrays/MEDIUM-maximum-subarray)
 - [ ] [Product of Array Except Self](/tier-1/arrays/MEDIUM-product-of-array-except-self)
 - [ ] [Move Zeroes](/tier-1/arrays/EASY-move-zeroes)
 
