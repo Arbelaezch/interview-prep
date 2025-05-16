@@ -45,3 +45,6 @@ The divide and conquer approach splits the array into halves, finds the maximum 
 **Time Complexity:** O(n log n) - We divide the problem into two subproblems of half the size and combine results in linear time.
 
 Despite its elegance, the divide and conquer approach is not more efficient than Kadane's algorithm because O(n) is better than O(n log n). The logarithmic factor in the divide and conquer approach represents the number of recursive splits, making it slower for large inputs. However, this approach can be valuable in parallel computing environments where different subproblems can be solved simultaneously.
+
+## Learning Journey
+Initially, I had trouble with this problem. I was focused too much on the indexing of the sub-array and not enough on the actual maximum value. 
