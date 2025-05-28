@@ -13,7 +13,7 @@ My broad based interview preparation approach, based on the most important probl
 
 2. [**Two Pointers**](/neetcode-roadmap/two-pointers/)
    - [ ] [Valid Palindrome](/neetcode-roadmap/two-pointers/EASY-valid-palindrome) (EASY)
-   - [x] [Two Sum II - Input Array Is Sorted](/neetcode-roadmap/two-pointers/MEDIUM-two-sum-ii-input-array-is-sorted)
+   - [x] [Two Sum II](/neetcode-roadmap/two-pointers/MEDIUM-two-sum-ii-input-array-is-sorted) (MEDIUM)
    - [ ] [3Sum](/neetcode-roadmap/two-pointers/MEDIUM-3sum) (MEDIUM)
 
 3. [**Sliding Window**](/neetcode-roadmap/sliding-window)
@@ -61,31 +61,34 @@ My broad based interview preparation approach, based on the most important probl
 ```mermaid
 graph TD
     A["Arrays & Hashing"] --> B["Two Pointers"]
-    A --> C["Sliding Window"]
     A --> D["Stack"]
     
     B --> E["Binary Search"]
-    C --> E
-    D --> E
+    B --> C["Sliding Window"]
+    B --> F["Linked List"]
     
-    E --> F["Linked List"]
-    F --> G["Trees"]
+    E --> G["Trees"]
+    F --> G
+
     G --> H["Tries"]
-    
     G --> I["Heap / Priority Queue"]
-    I --> J["Backtracking"]
+    G --> J["Backtracking"]
     
     J --> K["Graphs"]
-    K --> L["Advanced Graphs"]
-    
-    H --> M["1-D Dynamic Programming"]
-    M --> N["2-D Dynamic Programming"]
-    
-    N --> O["Greedy"]
-    O --> P["Intervals"]
-    
-    P --> Q["Math & Geometry"]
-    Q --> R["Bit Manipulation"]
+    J --> L["1-D Dynamic Programming"]
+
+    G --> M["Intervals"]
+    G --> N["Greedy"]
+    G --> O["Advanced Graphs"]
+
+    K --> O
+    K --> P["2-D Dynamic Programming]
+
+    L --> P
+    L --> Q["Bit Manipulation"]
+
+    Q --> R["Math & Geometry"]
+    K --> R
     
     classDef foundational fill:#e1f5fe
     classDef intermediate fill:#f3e5f5
