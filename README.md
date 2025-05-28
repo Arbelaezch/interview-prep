@@ -86,6 +86,9 @@ graph TD
 
     L --> P
     L --> Q["Bit Manipulation"]
+
+    Q --> R["Math & Geometry"]
+    K --> R
 ```
 
 ## Arrays & Hashing
