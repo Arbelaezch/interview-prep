@@ -82,11 +82,10 @@ graph TD
     G --> O["Advanced Graphs"]
 
     K --> O
-    K --> P["2-D Dynamic Programming]
+    K --> P["2-D Dynamic Programming"]
 
     L --> P
     L --> Q["Bit Manipulation"]
-
 ```
 
 ## Arrays & Hashing
