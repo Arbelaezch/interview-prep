@@ -13,7 +13,7 @@ My broad based interview preparation approach, based on the most important probl
 
 2. [**Two Pointers**](/neetcode-roadmap/two-pointers/)
    - [ ] [Valid Palindrome](/neetcode-roadmap/two-pointers/EASY-valid-palindrome) (EASY)
-   - [x] [Two Sum II](/neetcode-roadmap/two-pointers/MEDIUM-two-sum-ii-input-array-is-sorted) (MEDIUM)
+   - [x] [Two Sum II](/neetcode-roadmap/two-pointers) (MEDIUM)
    - [ ] [3Sum](/neetcode-roadmap/two-pointers/MEDIUM-3sum) (MEDIUM)
 
 3. [**Sliding Window**](/neetcode-roadmap/sliding-window)
@@ -118,7 +118,7 @@ Foundation of problem-solving with arrays and hash-based data structures
 Efficient traversal techniques using multiple pointers
 
 - [ ] [Valid Palindrome](/neetcode-roadmap/two-pointers/EASY-valid-palindrome)
-- [x] [Two Sum II - Input Array Is Sorted](/neetcode-roadmap/two-pointers/MEDIUM-two-sum-ii-input-array-is-sorted)
+- [x] [Two Sum II](/neetcode-roadmap/two-pointers)
 - [ ] [3Sum](/neetcode-roadmap/two-pointers/MEDIUM-3sum)
 - [ ] [Container With Most Water](/neetcode-roadmap/two-pointers/MEDIUM-container-with-most-water)
 - [ ] [Trapping Rain Water](/neetcode-roadmap/two-pointers/HARD-trapping-rain-water)
