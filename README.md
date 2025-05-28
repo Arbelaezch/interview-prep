@@ -1,160 +1,349 @@
-# Software Development Interview Preparation
+# Interview Prep Plan
 
-A comprehensive collection of coding challenges, algorithm implementations, and interview preparation materials. This repository documents my journey to master technical interview skills through deliberate practice and structured learning. My preparation is organized into three tiers based on frequency and importance in technical interviews. This approach is inspired by [Beyond Cracking the Coding Interview](https://www.beyondctci.com/) with some personal modifications.
+My broad based interview preparation approach, based on the most important problems from the [Neetcode.io roadmap](https://neetcode.io/roadmap). I designed it so that I could focus on getting really good at 12 core patterns/algorithms, rather than trying to remember a bunch of problem solutions for only a few concepts. I believe this will enable me to solve other unencountered problems more easily on my own.
 
-### [TIER 1 - Core Fundamentals](./tier-1)
+## Core problems to tackle first
 
-These are the foundational concepts that appear most frequently in technical interviews and form the bedrock of computer science knowledge:
+1. **Arrays & Hashing**
+   - [x] [Two Sum](/neetcode-roadmap/arrays-hashing/EASY-two-sum) (EASY)
+   - [x] [Range Sum Query](/neetcode-roadmap/arrays-hashing/EASY-range-sum-query) (EASY)
+   - [x] [Contains Duplicate](/neetcode-roadmap/arrays-hashing/EASY-contains-duplicate) (EASY)
+   - [ ] [Group Anagrams](/neetcode-roadmap/arrays-hashing/MEDIUM-group-anagrams) (MEDIUM)
+   - [ ] [Top K Frequent Elements](/neetcode-roadmap/arrays-hashing/MEDIUM-top-k-frequent-elements) (MEDIUM)
 
-## Arrays & Dynamic Arrays
-Implementation, manipulation, and common operations
+2. [**Two Pointers**](/neetcode-roadmap/two-pointers/)
+   - [ ] [Valid Palindrome](/neetcode-roadmap/two-pointers/EASY-valid-palindrome) (EASY)
+   - [x] [Two Sum II - Input Array Is Sorted](/neetcode-roadmap/two-pointers/MEDIUM-two-sum-ii-input-array-is-sorted)
+   - [ ] [3Sum](/neetcode-roadmap/two-pointers/MEDIUM-3sum) (MEDIUM)
 
-- [x] [Two Sum](/tier-1/arrays/EASY-two-sum)
-- [x] [Contains Duplicate](/tier-1/arrays/EASY-contains-duplicate)
-- [x] [Maximum Subarray](/tier-1/arrays/MEDIUM-maximum-subarray)
-- [ ] [Product of Array Except Self](/tier-1/arrays/MEDIUM-product-of-array-except-self)
-- [ ] [Move Zeroes](/tier-1/arrays/EASY-move-zeroes)
+3. [**Sliding Window**](/neetcode-roadmap/sliding-window)
+   - [ ] [Best Time to Buy and Sell Stock](/neetcode-roadmap/sliding-window/EASY-best-time-to-buy-and-sell-stock) (EASY)
+   - [ ] [Longest Substring Without Repeating Characters](/neetcode-roadmap/sliding-window/MEDIUM-longest-substring-without-repeating-characters) (MEDIUM)
 
-## String Manipulation
-Pattern matching, parsing, and transformation techniques
+4. **Stack**
+   - [ ] [Valid Parentheses](/neetcode-roadmap/stack/EASY-valid-parentheses) (EASY)
+   - [ ] [Daily Temperatures](/neetcode-roadmap/stack/MEDIUM-daily-temperatures) (MEDIUM)
 
-- [ ] [Valid Anagram](/tier-1/string-manipulation/EASY-valid-anagram)
-- [ ] [Valid Palindrome](/tier-1/string-manipulation/EASY-valid-palindrome)
-- [ ] [Longest Substring Without Repeating Characters](/tier-1/string-manipulation/MEDIUM-longest-substring-without-repeating-characters)
-- [ ] [String to Integer (atoi)](/tier-1/string-manipulation/MEDIUM-string-to-integer-atoi)
-- [ ] [Longest Palindromic Substring](/tier-1/string-manipulation/MEDIUM-longest-palindromic-substring)
+5. **Binary Search**
+   - [ ] [Binary Search](/neetcode-roadmap/binary-search/EASY-binary-search) (EASY)
+   - [ ] [Search in Rotated Sorted Array](/neetcode-roadmap/binary-search/MEDIUM-search-in-rotated-sorted-array) (MEDIUM)
+
+6. **Linked List**
+   - [ ] [Reverse Linked List](/neetcode-roadmap/linked-list/EASY-reverse-linked-list) (EASY)
+   - [ ] [Merge Two Sorted Lists](/neetcode-roadmap/linked-list/EASY-merge-two-sorted-lists) (EASY)
+
+7. **Trees**
+   - [ ] [Maximum Depth of Binary Tree](/neetcode-roadmap/trees/EASY-maximum-depth-of-binary-tree) (EASY)
+   - [ ] [Validate Binary Search Tree](/neetcode-roadmap/trees/MEDIUM-validate-binary-search-tree) (MEDIUM)
+
+8. **Heap / Priority Queue**
+   - [ ] [Kth Largest Element in an Array](/neetcode-roadmap/heap-priority-queue/MEDIUM-kth-largest-element-in-an-array) (MEDIUM)
+   - [ ] [Find Median from Data Stream](/neetcode-roadmap/heap-priority-queue/HARD-find-median-from-data-stream) (HARD)
+
+9. **Backtracking**
+    - [ ] [Subsets](/neetcode-roadmap/backtracking/MEDIUM-subsets) (MEDIUM)
+    - [ ] [Permutations](/neetcode-roadmap/backtracking/MEDIUM-permutations) (MEDIUM)
+
+10. **Graphs**
+    - [ ] [Number of Islands](/neetcode-roadmap/graphs/MEDIUM-number-of-islands) (MEDIUM)
+    - [ ] [Course Schedule](/neetcode-roadmap/graphs/MEDIUM-course-schedule) (MEDIUM)
+
+11. **1-D Dynamic Programming**
+    - [ ] [Climbing Stairs](/neetcode-roadmap/1d-dynamic-programming/EASY-climbing-stairs) (EASY)
+    - [ ] [House Robber](/neetcode-roadmap/1d-dynamic-programming/MEDIUM-house-robber) (MEDIUM)
+
+12. **Greedy**
+    - [x] [Maximum Subarray](/neetcode-roadmap/greedy/MEDIUM-maximum-subarray) (MEDIUM)
+    - [ ] [Jump Game](/neetcode-roadmap/greedy/MEDIUM-jump-game) (MEDIUM)
+
+## Full Neetcode Roadmap
+
+```mermaid
+graph TD
+    A["Arrays & Hashing"] --> B["Two Pointers"]
+    A --> C["Sliding Window"]
+    A --> D["Stack"]
+    
+    B --> E["Binary Search"]
+    C --> E
+    D --> E
+    
+    E --> F["Linked List"]
+    F --> G["Trees"]
+    G --> H["Tries"]
+    
+    G --> I["Heap / Priority Queue"]
+    I --> J["Backtracking"]
+    
+    J --> K["Graphs"]
+    K --> L["Advanced Graphs"]
+    
+    H --> M["1-D Dynamic Programming"]
+    M --> N["2-D Dynamic Programming"]
+    
+    N --> O["Greedy"]
+    O --> P["Intervals"]
+    
+    P --> Q["Math & Geometry"]
+    Q --> R["Bit Manipulation"]
+    
+    classDef foundational fill:#e1f5fe
+    classDef intermediate fill:#f3e5f5
+    classDef advanced fill:#fff3e0
+    
+    class A,B,C,D,E foundational
+    class F,G,H,I,J,K intermediate
+    class L,M,N,O,P,Q,R advanced
+```
+
+## Arrays & Hashing
+
+Foundation of problem-solving with arrays and hash-based data structures
+
+- [x] [Contains Duplicate](/neetcode-roadmap/arrays-hashing/EASY-contains-duplicate)
+- [ ] [Valid Anagram](/neetcode-roadmap/arrays-hashing/EASY-valid-anagram)
+- [x] [Two Sum](/neetcode-roadmap/arrays-hashing/EASY-two-sum)
+- [ ] [Group Anagrams](/neetcode-roadmap/arrays-hashing/MEDIUM-group-anagrams)
+- [ ] [Top K Frequent Elements](/neetcode-roadmap/arrays-hashing/MEDIUM-top-k-frequent-elements)
+- [ ] [Encode and Decode Strings](/neetcode-roadmap/arrays-hashing/MEDIUM-encode-and-decode-strings)
+- [ ] [Product of Array Except Self](/neetcode-roadmap/arrays-hashing/MEDIUM-product-of-array-except-self)
+- [ ] [Valid Sudoku](/neetcode-roadmap/arrays-hashing/MEDIUM-valid-sudoku)
+- [ ] [Longest Consecutive Sequence](/neetcode-roadmap/arrays-hashing/MEDIUM-longest-consecutive-sequence)
 
 ## Two Pointers
-Solving problems with multiple pointers traversing data structures
 
-- [ ] [Valid Palindrome](/tier-1/two-pointers/EASY-valid-palindrome)
-- [ ] [Container With Most Water](/tier-1/two-pointers/MEDIUM-container-with-most-water)
-- [ ] [3Sum](/tier-1/two-pointers/MEDIUM-3sum)
-- [ ] [Remove Duplicates from Sorted Array](/tier-1/two-pointers/EASY-remove-duplicates-from-sorted-array)
-- [ ] [Trapping Rain Water](/tier-1/two-pointers/HARD-trapping-rain-water)
+Efficient traversal techniques using multiple pointers
 
-## Grids & Matrices
-2D array traversal, transformation, and search algorithms
+- [ ] [Valid Palindrome](/neetcode-roadmap/two-pointers/EASY-valid-palindrome)
+- [x] [Two Sum II - Input Array Is Sorted](/neetcode-roadmap/two-pointers/MEDIUM-two-sum-ii-input-array-is-sorted)
+- [ ] [3Sum](/neetcode-roadmap/two-pointers/MEDIUM-3sum)
+- [ ] [Container With Most Water](/neetcode-roadmap/two-pointers/MEDIUM-container-with-most-water)
+- [ ] [Trapping Rain Water](/neetcode-roadmap/two-pointers/HARD-trapping-rain-water)
 
-- [ ] [Spiral Matrix](/tier-1/grids-matrices/MEDIUM-spiral-matrix)
-- [ ] [Set Matrix Zeroes](/tier-1/grids-matrices/MEDIUM-set-matrix-zeroes)
-- [ ] [Rotate Image](/tier-1/grids-matrices/MEDIUM-rotate-image)
-- [ ] [Word Search](/tier-1/grids-matrices/MEDIUM-word-search)
-- [ ] [Game of Life](/tier-1/grids-matrices/MEDIUM-game-of-life)
+## Sliding Window
+
+Dynamic window techniques for substring and subarray problems
+
+- [ ] [Best Time to Buy and Sell Stock](/neetcode-roadmap/sliding-window/EASY-best-time-to-buy-and-sell-stock)
+- [ ] [Longest Substring Without Repeating Characters](/neetcode-roadmap/sliding-window/MEDIUM-longest-substring-without-repeating-characters)
+- [ ] [Longest Repeating Character Replacement](/neetcode-roadmap/sliding-window/MEDIUM-longest-repeating-character-replacement)
+- [ ] [Permutation in String](/neetcode-roadmap/sliding-window/MEDIUM-permutation-in-string)
+- [ ] [Minimum Window Substring](/neetcode-roadmap/sliding-window/HARD-minimum-window-substring)
+- [ ] [Sliding Window Maximum](/neetcode-roadmap/sliding-window/HARD-sliding-window-maximum)
+
+## Stack
+
+LIFO data structure applications and monotonic stack patterns
+
+- [ ] [Valid Parentheses](/neetcode-roadmap/stack/EASY-valid-parentheses)
+- [ ] [Min Stack](/neetcode-roadmap/stack/MEDIUM-min-stack)
+- [ ] [Evaluate Reverse Polish Notation](/neetcode-roadmap/stack/MEDIUM-evaluate-reverse-polish-notation)
+- [ ] [Generate Parentheses](/neetcode-roadmap/stack/MEDIUM-generate-parentheses)
+- [ ] [Daily Temperatures](/neetcode-roadmap/stack/MEDIUM-daily-temperatures)
+- [ ] [Car Fleet](/neetcode-roadmap/stack/MEDIUM-car-fleet)
+- [ ] [Largest Rectangle in Histogram](/neetcode-roadmap/stack/HARD-largest-rectangle-in-histogram)
 
 ## Binary Search
-Implementation and applications beyond simple sorted arrays
 
-- [ ] [Binary Search](/tier-1/binary-search/EASY-binary-search)
-- [ ] [Search in Rotated Sorted Array](/tier-1/binary-search/MEDIUM-search-in-rotated-sorted-array)
-- [ ] [Find First and Last Position of Element in Sorted Array](/tier-1/binary-search/MEDIUM-find-first-and-last-position)
-- [ ] [Search a 2D Matrix](/tier-1/binary-search/MEDIUM-search-a-2d-matrix)
-- [ ] [Find Peak Element](/tier-1/binary-search/MEDIUM-find-peak-element)
+Efficient search algorithms and their applications
 
-## Hash Maps & Sets
-Utilizing hash-based data structures for efficient lookups
+- [ ] [Binary Search](/neetcode-roadmap/binary-search/EASY-binary-search)
+- [ ] [Search a 2D Matrix](/neetcode-roadmap/binary-search/MEDIUM-search-a-2d-matrix)
+- [ ] [Koko Eating Bananas](/neetcode-roadmap/binary-search/MEDIUM-koko-eating-bananas)
+- [ ] [Find Minimum in Rotated Sorted Array](/neetcode-roadmap/binary-search/MEDIUM-find-minimum-in-rotated-sorted-array)
+- [ ] [Search in Rotated Sorted Array](/neetcode-roadmap/binary-search/MEDIUM-search-in-rotated-sorted-array)
+- [ ] [Time Based Key-Value Store](/neetcode-roadmap/binary-search/MEDIUM-time-based-key-value-store)
+- [ ] [Median of Two Sorted Arrays](/neetcode-roadmap/binary-search/HARD-median-of-two-sorted-arrays)
 
-- [ ] [Group Anagrams](/tier-1/hash-maps-sets/MEDIUM-group-anagrams)
-- [ ] [LRU Cache](/tier-1/hash-maps-sets/MEDIUM-lru-cache)
-- [ ] [Longest Consecutive Sequence](/tier-1/hash-maps-sets/MEDIUM-longest-consecutive-sequence)
-- [ ] [Copy List with Random Pointer](/tier-1/hash-maps-sets/MEDIUM-copy-list-with-random-pointer)
-- [ ] [Top K Frequent Elements](/tier-1/hash-maps-sets/MEDIUM-top-k-frequent-elements)
+## Linked List
 
-## Stacks and Queues
-LIFO and FIFO data structures and their applications
+Pointer manipulation and linked list operations
 
-- [ ] [Valid Parentheses](/tier-1/stacks-queues/EASY-valid-parentheses)
-- [ ] [Min Stack](/tier-1/stacks-queues/MEDIUM-min-stack)
-- [ ] [Implement Queue using Stacks](/tier-1/stacks-queues/EASY-implement-queue-using-stacks)
-- [ ] [Daily Temperatures](/tier-1/stacks-queues/MEDIUM-daily-temperatures)
-- [ ] [Evaluate Reverse Polish Notation](/tier-1/stacks-queues/MEDIUM-evaluate-reverse-polish-notation)
-
-## Recursion
-Recursive problem solving, including base cases and recursive steps
-
-- [ ] [Subsets](/tier-1/recursion/MEDIUM-subsets)
-- [ ] [Fibonacci Number](/tier-1/recursion/EASY-fibonacci-number)
-- [ ] [Permutations](/tier-1/recursion/MEDIUM-permutations)
-- [ ] [Generate Parentheses](/tier-1/recursion/MEDIUM-generate-parentheses)
-- [ ] [Combination Sum](/tier-1/recursion/MEDIUM-combination-sum)
-
-## Sorting Algorithms
-Implementation and analysis of common sorting techniques
-
-- [ ] [Merge Intervals](/tier-1/sorting/MEDIUM-merge-intervals)
-- [ ] [Sort Colors](/tier-1/sorting/MEDIUM-sort-colors)
-- [ ] [Insert Interval](/tier-1/sorting/MEDIUM-insert-interval)
-- [ ] [Meeting Rooms II](/tier-1/sorting/MEDIUM-meeting-rooms-ii)
-- [ ] [Kth Largest Element in an Array](/tier-1/sorting/MEDIUM-kth-largest-element-in-array)
-
-## Linked Lists
-Singly and doubly linked lists, operations, and common patterns
-
-- [ ] [Reverse Linked List](/tier-1/linked-lists/EASY-reverse-linked-list)
-- [ ] [Linked List Cycle](/tier-1/linked-lists/EASY-linked-list-cycle)
-- [ ] [Merge Two Sorted Lists](/tier-1/linked-lists/EASY-merge-two-sorted-lists)
-- [ ] [Remove Nth Node From End of List](/tier-1/linked-lists/MEDIUM-remove-nth-node-from-end)
-- [ ] [Palindrome Linked List](/tier-1/linked-lists/EASY-palindrome-linked-list)
+- [ ] [Reverse Linked List](/neetcode-roadmap/linked-list/EASY-reverse-linked-list)
+- [ ] [Merge Two Sorted Lists](/neetcode-roadmap/linked-list/EASY-merge-two-sorted-lists)
+- [ ] [Reorder List](/neetcode-roadmap/linked-list/MEDIUM-reorder-list)
+- [ ] [Remove Nth Node From End of List](/neetcode-roadmap/linked-list/MEDIUM-remove-nth-node-from-end-of-list)
+- [ ] [Copy List with Random Pointer](/neetcode-roadmap/linked-list/MEDIUM-copy-list-with-random-pointer)
+- [ ] [Add Two Numbers](/neetcode-roadmap/linked-list/MEDIUM-add-two-numbers)
+- [ ] [Linked List Cycle](/neetcode-roadmap/linked-list/EASY-linked-list-cycle)
+- [ ] [Find the Duplicate Number](/neetcode-roadmap/linked-list/MEDIUM-find-the-duplicate-number)
+- [ ] [LRU Cache](/neetcode-roadmap/linked-list/MEDIUM-lru-cache)
+- [ ] [Merge k Sorted Lists](/neetcode-roadmap/linked-list/HARD-merge-k-sorted-lists)
+- [ ] [Reverse Nodes in k-Group](/neetcode-roadmap/linked-list/HARD-reverse-nodes-in-k-group)
 
 ## Trees
-Binary trees, BSTs, traversals, and recursive tree operations
 
-- [ ] [Maximum Depth of Binary Tree](/tier-1/trees/EASY-maximum-depth-of-binary-tree)
-- [ ] [Invert Binary Tree](/tier-1/trees/EASY-invert-binary-tree)
-- [ ] [Validate Binary Search Tree](/tier-1/trees/MEDIUM-validate-binary-search-tree)
-- [ ] [Binary Tree Level Order Traversal](/tier-1/trees/MEDIUM-binary-tree-level-order-traversal)
-- [ ] [Lowest Common Ancestor of a Binary Tree](/tier-1/trees/MEDIUM-lowest-common-ancestor)
+Binary trees, traversals, and tree-based algorithms
+
+- [ ] [Invert Binary Tree](/neetcode-roadmap/trees/EASY-invert-binary-tree)
+- [ ] [Maximum Depth of Binary Tree](/neetcode-roadmap/trees/EASY-maximum-depth-of-binary-tree)
+- [ ] [Diameter of Binary Tree](/neetcode-roadmap/trees/EASY-diameter-of-binary-tree)
+- [ ] [Balanced Binary Tree](/neetcode-roadmap/trees/EASY-balanced-binary-tree)
+- [ ] [Same Tree](/neetcode-roadmap/trees/EASY-same-tree)
+- [ ] [Subtree of Another Tree](/neetcode-roadmap/trees/EASY-subtree-of-another-tree)
+- [ ] [Lowest Common Ancestor of a Binary Search Tree](/neetcode-roadmap/trees/MEDIUM-lowest-common-ancestor-of-a-binary-search-tree)
+- [ ] [Binary Tree Level Order Traversal](/neetcode-roadmap/trees/MEDIUM-binary-tree-level-order-traversal)
+- [ ] [Binary Tree Right Side View](/neetcode-roadmap/trees/MEDIUM-binary-tree-right-side-view)
+- [ ] [Count Good Nodes in Binary Tree](/neetcode-roadmap/trees/MEDIUM-count-good-nodes-in-binary-tree)
+- [ ] [Validate Binary Search Tree](/neetcode-roadmap/trees/MEDIUM-validate-binary-search-tree)
+- [ ] [Kth Smallest Element in a BST](/neetcode-roadmap/trees/MEDIUM-kth-smallest-element-in-a-bst)
+- [ ] [Construct Binary Tree from Preorder and Inorder Traversal](/neetcode-roadmap/trees/MEDIUM-construct-binary-tree-from-preorder-and-inorder-traversal)
+- [ ] [Binary Tree Maximum Path Sum](/neetcode-roadmap/trees/HARD-binary-tree-maximum-path-sum)
+- [ ] [Serialize and Deserialize Binary Tree](/neetcode-roadmap/trees/HARD-serialize-and-deserialize-binary-tree)
+
+## Tries
+
+Prefix trees for efficient string operations
+
+- [ ] [Implement Trie (Prefix Tree)](/neetcode-roadmap/tries/MEDIUM-implement-trie-prefix-tree)
+- [ ] [Design Add and Search Words Data Structure](/neetcode-roadmap/tries/MEDIUM-design-add-and-search-words-data-structure)
+- [ ] [Word Search II](/neetcode-roadmap/tries/HARD-word-search-ii)
+
+## Heap / Priority Queue
+
+Heap data structure and priority-based algorithms
+
+- [ ] [Kth Largest Element in a Stream](/neetcode-roadmap/heap-priority-queue/EASY-kth-largest-element-in-a-stream)
+- [ ] [Last Stone Weight](/neetcode-roadmap/heap-priority-queue/EASY-last-stone-weight)
+- [ ] [K Closest Points to Origin](/neetcode-roadmap/heap-priority-queue/MEDIUM-k-closest-points-to-origin)
+- [ ] [Kth Largest Element in an Array](/neetcode-roadmap/heap-priority-queue/MEDIUM-kth-largest-element-in-an-array)
+- [ ] [Task Scheduler](/neetcode-roadmap/heap-priority-queue/MEDIUM-task-scheduler)
+- [ ] [Design Twitter](/neetcode-roadmap/heap-priority-queue/MEDIUM-design-twitter)
+- [ ] [Find Median from Data Stream](/neetcode-roadmap/heap-priority-queue/HARD-find-median-from-data-stream)
+
+## Backtracking
+
+Systematic exploration of solution spaces
+
+- [ ] [Subsets](/neetcode-roadmap/backtracking/MEDIUM-subsets)
+- [ ] [Combination Sum](/neetcode-roadmap/backtracking/MEDIUM-combination-sum)
+- [ ] [Permutations](/neetcode-roadmap/backtracking/MEDIUM-permutations)
+- [ ] [Subsets II](/neetcode-roadmap/backtracking/MEDIUM-subsets-ii)
+- [ ] [Combination Sum II](/neetcode-roadmap/backtracking/MEDIUM-combination-sum-ii)
+- [ ] [Word Search](/neetcode-roadmap/backtracking/MEDIUM-word-search)
+- [ ] [Palindrome Partitioning](/neetcode-roadmap/backtracking/MEDIUM-palindrome-partitioning)
+- [ ] [Letter Combinations of a Phone Number](/neetcode-roadmap/backtracking/MEDIUM-letter-combinations-of-a-phone-number)
+- [ ] [N-Queens](/neetcode-roadmap/backtracking/HARD-n-queens)
 
 ## Graphs
-Representation, traversal (BFS/DFS), and basic algorithms
 
-- [ ] [Number of Islands](/tier-1/graphs/MEDIUM-number-of-islands)
-- [ ] [Course Schedule](/tier-1/graphs/MEDIUM-course-schedule)
-- [ ] [Clone Graph](/tier-1/graphs/MEDIUM-clone-graph)
-- [ ] [Pacific Atlantic Water Flow](/tier-1/graphs/MEDIUM-pacific-atlantic-water-flow)
-- [ ] [Word Ladder](/tier-1/graphs/HARD-word-ladder)
+Graph representation, traversal, and algorithms
 
+- [ ] [Number of Islands](/neetcode-roadmap/graphs/MEDIUM-number-of-islands)
+- [ ] [Clone Graph](/neetcode-roadmap/graphs/MEDIUM-clone-graph)
+- [ ] [Max Area of Island](/neetcode-roadmap/graphs/MEDIUM-max-area-of-island)
+- [ ] [Pacific Atlantic Water Flow](/neetcode-roadmap/graphs/MEDIUM-pacific-atlantic-water-flow)
+- [ ] [Surrounded Regions](/neetcode-roadmap/graphs/MEDIUM-surrounded-regions)
+- [ ] [Rotting Oranges](/neetcode-roadmap/graphs/MEDIUM-rotting-oranges)
+- [ ] [Walls and Gates](/neetcode-roadmap/graphs/MEDIUM-walls-and-gates)
+- [ ] [Course Schedule](/neetcode-roadmap/graphs/MEDIUM-course-schedule)
+- [ ] [Course Schedule II](/neetcode-roadmap/graphs/MEDIUM-course-schedule-ii)
+- [ ] [Redundant Connection](/neetcode-roadmap/graphs/MEDIUM-redundant-connection)
+- [ ] [Number of Connected Components in an Undirected Graph](/neetcode-roadmap/graphs/MEDIUM-number-of-connected-components-in-an-undirected-graph)
+- [ ] [Graph Valid Tree](/neetcode-roadmap/graphs/MEDIUM-graph-valid-tree)
+- [ ] [Word Ladder](/neetcode-roadmap/graphs/HARD-word-ladder)
 
+## Advanced Graphs
 
-### [TIER 2 - Important But Less Fundamental](./tier-2)
+Advanced graph algorithms and techniques
 
-These topics are common in interviews but build upon the core fundamentals:
+- [ ] [Reconstruct Itinerary](/neetcode-roadmap/advanced-graphs/HARD-reconstruct-itinerary)
+- [ ] [Min Cost to Connect All Points](/neetcode-roadmap/advanced-graphs/MEDIUM-min-cost-to-connect-all-points)
+- [ ] [Network Delay Time](/neetcode-roadmap/advanced-graphs/MEDIUM-network-delay-time)
+- [ ] [Swim in Rising Water](/neetcode-roadmap/advanced-graphs/HARD-swim-in-rising-water)
+- [ ] [Alien Dictionary](/neetcode-roadmap/advanced-graphs/HARD-alien-dictionary)
+- [ ] [Cheapest Flights Within K Stops](/neetcode-roadmap/advanced-graphs/MEDIUM-cheapest-flights-within-k-stops)
 
-- [ ] **Heaps**: Implementation and applications in priority-based problems
-- [ ] **Sliding Windows**: Fixed and variable size window techniques
-- [ ] **Backtracking**: Systematic exploration of solution spaces
-- [ ] **Topological Sort**: Ordering nodes in directed graphs
-- [ ] **Prefix Sums**: Precomputation for efficient range queries
-- [ ] **Dynamic Programming**: Memoization and tabulation approaches to optimization problems
-- [ ] **Greedy Algorithms**: Making locally optimal choices for global solutions
+## 1-D Dynamic Programming
 
-### [TIER 3 - Advanced Topics](./tier-3)
+One-dimensional dynamic programming patterns
 
-These are specialized topics that demonstrate deeper computer science knowledge:
+- [ ] [Climbing Stairs](/neetcode-roadmap/1d-dynamic-programming/EASY-climbing-stairs)
+- [ ] [Min Cost Climbing Stairs](/neetcode-roadmap/1d-dynamic-programming/EASY-min-cost-climbing-stairs)
+- [ ] [House Robber](/neetcode-roadmap/1d-dynamic-programming/MEDIUM-house-robber)
+- [ ] [House Robber II](/neetcode-roadmap/1d-dynamic-programming/MEDIUM-house-robber-ii)
+- [ ] [Longest Palindromic Substring](/neetcode-roadmap/1d-dynamic-programming/MEDIUM-longest-palindromic-substring)
+- [ ] [Palindromic Substrings](/neetcode-roadmap/1d-dynamic-programming/MEDIUM-palindromic-substrings)
+- [ ] [Decode Ways](/neetcode-roadmap/1d-dynamic-programming/MEDIUM-decode-ways)
+- [ ] [Coin Change](/neetcode-roadmap/1d-dynamic-programming/MEDIUM-coin-change)
+- [ ] [Maximum Product Subarray](/neetcode-roadmap/1d-dynamic-programming/MEDIUM-maximum-product-subarray)
+- [ ] [Word Break](/neetcode-roadmap/1d-dynamic-programming/MEDIUM-word-break)
+- [ ] [Longest Increasing Subsequence](/neetcode-roadmap/1d-dynamic-programming/MEDIUM-longest-increasing-subsequence)
+- [ ] [Partition Equal Subset Sum](/neetcode-roadmap/1d-dynamic-programming/MEDIUM-partition-equal-subset-sum)
 
-- [ ] **Monotonic Stacks & Queues**: Maintaining order properties in stack/queue operations
-- [ ] **Union-Find (Disjoint Sets)**: Efficient grouping and merging of elements
-- [ ] **Data Structure Design**: Creating custom data structures for specific problem domains
-- [ ] **Set & Map Implementations**: Understanding the internals of hash-based collections
-- [ ] **Tries**: Prefix trees for efficient string operations
-- [ ] **Advanced Graph Algorithms**: Network flow, minimum spanning trees, shortest paths
-- [ ] **Advanced Dynamic Programming**: 2D states, state compression, and complex optimizations
-- [ ] **Bit Manipulation**: Bitwise operations and their algorithmic applications
-- [ ] **Mathematical Algorithms**: Number theory, combinatorics, and probability
+## 2-D Dynamic Programming
 
-## Repository Organization
+Two-dimensional dynamic programming patterns
 
-Each problem solution includes:
+- [ ] [Unique Paths](/neetcode-roadmap/2d-dynamic-programming/MEDIUM-unique-paths)
+- [ ] [Longest Common Subsequence](/neetcode-roadmap/2d-dynamic-programming/MEDIUM-longest-common-subsequence)
+- [ ] [Best Time to Buy and Sell Stock with Cooldown](/neetcode-roadmap/2d-dynamic-programming/MEDIUM-best-time-to-buy-and-sell-stock-with-cooldown)
+- [ ] [Coin Change 2](/neetcode-roadmap/2d-dynamic-programming/MEDIUM-coin-change-2)
+- [ ] [Target Sum](/neetcode-roadmap/2d-dynamic-programming/MEDIUM-target-sum)
+- [ ] [Interleaving String](/neetcode-roadmap/2d-dynamic-programming/MEDIUM-interleaving-string)
+- [ ] [Longest Increasing Path in a Matrix](/neetcode-roadmap/2d-dynamic-programming/HARD-longest-increasing-path-in-a-matrix)
+- [ ] [Distinct Subsequences](/neetcode-roadmap/2d-dynamic-programming/HARD-distinct-subsequences)
+- [ ] [Edit Distance](/neetcode-roadmap/2d-dynamic-programming/HARD-edit-distance)
+- [ ] [Burst Balloons](/neetcode-roadmap/2d-dynamic-programming/HARD-burst-balloons)
+- [ ] [Regular Expression Matching](/neetcode-roadmap/2d-dynamic-programming/HARD-regular-expression-matching)
 
-- Problem statement and constraints
-- My approach with time and space complexity analysis
-- Implementation in my preferred language(s)
-- Key learnings and patterns identified
+## Greedy
+
+Greedy algorithm patterns and optimization problems
+
+- [x] [Maximum Subarray](/neetcode-roadmap/greedy/MEDIUM-maximum-subarray)
+- [ ] [Jump Game](/neetcode-roadmap/greedy/MEDIUM-jump-game)
+- [ ] [Jump Game II](/neetcode-roadmap/greedy/MEDIUM-jump-game-ii)
+- [ ] [Gas Station](/neetcode-roadmap/greedy/MEDIUM-gas-station)
+- [ ] [Hand of Straights](/neetcode-roadmap/greedy/MEDIUM-hand-of-straights)
+- [ ] [Merge Triplets to Form Target Triplet](/neetcode-roadmap/greedy/MEDIUM-merge-triplets-to-form-target-triplet)
+- [ ] [Partition Labels](/neetcode-roadmap/greedy/MEDIUM-partition-labels)
+- [ ] [Valid Parenthesis String](/neetcode-roadmap/greedy/MEDIUM-valid-parenthesis-string)
+
+## Intervals
+
+Interval-based problems and scheduling algorithms
+
+- [ ] [Insert Interval](/neetcode-roadmap/intervals/MEDIUM-insert-interval)
+- [ ] [Merge Intervals](/neetcode-roadmap/intervals/MEDIUM-merge-intervals)
+- [ ] [Non-overlapping Intervals](/neetcode-roadmap/intervals/MEDIUM-non-overlapping-intervals)
+- [ ] [Meeting Rooms](/neetcode-roadmap/intervals/EASY-meeting-rooms)
+- [ ] [Meeting Rooms II](/neetcode-roadmap/intervals/MEDIUM-meeting-rooms-ii)
+- [ ] [Minimum Interval to Include Each Query](/neetcode-roadmap/intervals/HARD-minimum-interval-to-include-each-query)
+
+## Math & Geometry
+
+Mathematical algorithms and geometric problems
+
+- [ ] [Rotate Image](/neetcode-roadmap/math-geometry/MEDIUM-rotate-image)
+- [ ] [Spiral Matrix](/neetcode-roadmap/math-geometry/MEDIUM-spiral-matrix)
+- [ ] [Set Matrix Zeroes](/neetcode-roadmap/math-geometry/MEDIUM-set-matrix-zeroes)
+- [ ] [Happy Number](/neetcode-roadmap/math-geometry/EASY-happy-number)
+- [ ] [Plus One](/neetcode-roadmap/math-geometry/EASY-plus-one)
+- [ ] [Pow(x, n)](/neetcode-roadmap/math-geometry/MEDIUM-powx-n)
+- [ ] [Multiply Strings](/neetcode-roadmap/math-geometry/MEDIUM-multiply-strings)
+- [ ] [Detect Squares](/neetcode-roadmap/math-geometry/MEDIUM-detect-squares)
+
+## Bit Manipulation
+
+Bitwise operations and their algorithmic applications
+
+- [ ] [Single Number](/neetcode-roadmap/bit-manipulation/EASY-single-number)
+- [ ] [Number of 1 Bits](/neetcode-roadmap/bit-manipulation/EASY-number-of-1-bits)
+- [ ] [Counting Bits](/neetcode-roadmap/bit-manipulation/EASY-counting-bits)
+- [ ] [Reverse Bits](/neetcode-roadmap/bit-manipulation/EASY-reverse-bits)
+- [ ] [Missing Number](/neetcode-roadmap/bit-manipulation/EASY-missing-number)
+- [ ] [Sum of Two Integers](/neetcode-roadmap/bit-manipulation/MEDIUM-sum-of-two-integers)
+- [ ] [Reverse Integer](/neetcode-roadmap/bit-manipulation/MEDIUM-reverse-integer) [Valid Palindrome](/neetcode-roadmap/two-pointers/EASY-valid-palindrome)
+- [ ] [Two Sum II - Input Array Is Sorted](/neetcode-roadmap/two-pointers/MEDIUM-two-sum-ii-input-array-is-sorted)
+- [ ] [3Sum](/neetcode-roadmap/two-pointers/MEDIUM-3sum)
+- [ ] [Container With Most Water](/neetcode-roadmap/two-pointers/MEDIUM-container-with-most-water)
+- [ ] [Trapping Rain Water](/neetcode-roadmap/two-pointers/HARD-trapping-rain-water)
 
 ## Resources
 
 Key resources I'm using in my preparation:
 
+- [Neetcode.io](https://neetcode.io/)
 - LeetCode
 - "Cracking the Coding Interview" by Gayle Laakmann McDowell
-- "Beyond Cracking the Coding Interview" also by Gayle

@@ -15,7 +15,7 @@ This enables us to calculate the sum of any subarray `arr[i...j]` using:
 Imagine you have an array `[2, 3, 1, 4, 5]` and need to answer multiple questions about range sums:
 
 - What's the sum from index 1 to 3? (elements 3, 1, 4)
-- What's the sum from index 0 to 2? (elements 2, 3, 1)
+- What's the sum from inde  x 0 to 2? (elements 2, 3, 1)
 - What's the sum from index 2 to 4? (elements 1, 4, 5)
 
 How would you solve this efficiently?
