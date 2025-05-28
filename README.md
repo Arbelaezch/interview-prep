@@ -90,9 +90,9 @@ graph TD
     Q --> R["Math & Geometry"]
     K --> R
     
-    classDef foundational fill:#e1f5fe
-    classDef intermediate fill:#f3e5f5
-    classDef advanced fill:#fff3e0
+    classDef foundational fill:#2563eb,stroke:#1e40af,stroke-width:2px,color:#ffffff
+    classDef intermediate fill:#7c3aed,stroke:#5b21b6,stroke-width:2px,color:#ffffff
+    classDef advanced fill:#ea580c,stroke:#c2410c,stroke-width:2px,color:#ffffff
     
     class A,B,C,D,E foundational
     class F,G,H,I,J,K intermediate
