@@ -87,16 +87,6 @@ graph TD
     L --> P
     L --> Q["Bit Manipulation"]
 
-    Q --> R["Math & Geometry"]
-    K --> R
-    
-    classDef foundational fill:#e1f5fe
-    classDef intermediate fill:#f3e5f5
-    classDef advanced fill:#fff3e0
-    
-    class A,B,C,D,E foundational
-    class F,G,H,I,J,K intermediate
-    class L,M,N,O,P,Q,R advanced
 ```
 
 ## Arrays & Hashing
