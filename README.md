@@ -77,9 +77,9 @@ graph TD
     J --> K["Graphs"]
     J --> L["1-D Dynamic Programming"]
 
-    G --> M["Intervals"]
-    G --> N["Greedy"]
-    G --> O["Advanced Graphs"]
+    I --> M["Intervals"]
+    I --> N["Greedy"]
+    I --> O["Advanced Graphs"]
 
     K --> O
     K --> P["2-D Dynamic Programming"]
