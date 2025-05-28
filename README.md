@@ -1,6 +1,6 @@
 # Interview Prep Plan
 
-My broad based interview preparation approach, based on the most important problems from the [Neetcode.io roadmap](https://neetcode.io/roadmap). I designed it so that I could focus on getting really good at 12 core patterns/algorithms, rather than trying to remember a bunch of problem solutions for only a few concepts. I believe this will enable me to solve other unencountered problems more easily on my own.
+My broad based interview preparation approach, based on the most important problems from the [Neetcode.io roadmap](https://neetcode.io/roadmap). I designed it so that I could focus on getting really good at 12 core patterns/algorithms, rather than trying to remember a bunch of problem solutions for only a few concepts. I believe this will enable me to solve other problems I haven't ecountered before. After establishing a strong understanding of these fundamentals, I will proceed into deeper understanding of more complex problems.
 
 ## Core problems to tackle first
 
