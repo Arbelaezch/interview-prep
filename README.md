@@ -12,7 +12,7 @@ My broad based interview preparation approach, based on the most important probl
    - [ ] [Top K Frequent Elements](/neetcode-roadmap/arrays-hashing/MEDIUM-top-k-frequent-elements) (MEDIUM)
 
 2. [**Two Pointers**](/neetcode-roadmap/two-pointers/)
-   - [ ] [Valid Palindrome](/neetcode-roadmap/two-pointers/EASY-valid-palindrome) (EASY)
+   - [x] [Valid Palindrome](/neetcode-roadmap/two-pointers/EASY-valid-palindrome) (EASY)
    - [x] [Two Sum II](/neetcode-roadmap/two-pointers) (MEDIUM)
    - [ ] [3Sum](/neetcode-roadmap/two-pointers/MEDIUM-3sum) (MEDIUM)
 
@@ -117,7 +117,7 @@ Foundation of problem-solving with arrays and hash-based data structures
 
 Efficient traversal techniques using multiple pointers
 
-- [ ] [Valid Palindrome](/neetcode-roadmap/two-pointers/EASY-valid-palindrome)
+- [x] [Valid Palindrome](/neetcode-roadmap/two-pointers/EASY-valid-palindrome)
 - [x] [Two Sum II](/neetcode-roadmap/two-pointers)
 - [ ] [3Sum](/neetcode-roadmap/two-pointers/MEDIUM-3sum)
 - [ ] [Container With Most Water](/neetcode-roadmap/two-pointers/MEDIUM-container-with-most-water)
@@ -337,11 +337,7 @@ Bitwise operations and their algorithmic applications
 - [ ] [Reverse Bits](/neetcode-roadmap/bit-manipulation/EASY-reverse-bits)
 - [ ] [Missing Number](/neetcode-roadmap/bit-manipulation/EASY-missing-number)
 - [ ] [Sum of Two Integers](/neetcode-roadmap/bit-manipulation/MEDIUM-sum-of-two-integers)
-- [ ] [Reverse Integer](/neetcode-roadmap/bit-manipulation/MEDIUM-reverse-integer) [Valid Palindrome](/neetcode-roadmap/two-pointers/EASY-valid-palindrome)
-- [ ] [Two Sum II - Input Array Is Sorted](/neetcode-roadmap/two-pointers/MEDIUM-two-sum-ii-input-array-is-sorted)
-- [ ] [3Sum](/neetcode-roadmap/two-pointers/MEDIUM-3sum)
-- [ ] [Container With Most Water](/neetcode-roadmap/two-pointers/MEDIUM-container-with-most-water)
-- [ ] [Trapping Rain Water](/neetcode-roadmap/two-pointers/HARD-trapping-rain-water)
+- [ ] [Reverse Integer](/neetcode-roadmap/bit-manipulation/MEDIUM-reverse-integer)
 
 ## Resources
 
