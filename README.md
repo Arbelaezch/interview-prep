@@ -8,7 +8,7 @@ My broad based interview preparation approach, based on the most important probl
    - [x] [Two Sum](/neetcode-roadmap/arrays-hashing/EASY-two-sum) (EASY)
    - [x] [Range Sum Query](/neetcode-roadmap/arrays-hashing/EASY-range-sum-query) (EASY)
    - [x] [Contains Duplicate](/neetcode-roadmap/arrays-hashing/EASY-contains-duplicate) (EASY)
-   - [ ] [Group Anagrams](/neetcode-roadmap/arrays-hashing/MEDIUM-group-anagrams) (MEDIUM)
+   - [x] [Group Anagrams](/neetcode-roadmap/arrays-hashing/MEDIUM-group-anagrams) (MEDIUM)
    - [ ] [Top K Frequent Elements](/neetcode-roadmap/arrays-hashing/MEDIUM-top-k-frequent-elements) (MEDIUM)
 
 2. [**Two Pointers**](/neetcode-roadmap/two-pointers/)
@@ -106,7 +106,7 @@ Foundation of problem-solving with arrays and hash-based data structures
 - [x] [Contains Duplicate](/neetcode-roadmap/arrays-hashing/EASY-contains-duplicate)
 - [ ] [Valid Anagram](/neetcode-roadmap/arrays-hashing/EASY-valid-anagram)
 - [x] [Two Sum](/neetcode-roadmap/arrays-hashing/EASY-two-sum)
-- [ ] [Group Anagrams](/neetcode-roadmap/arrays-hashing/MEDIUM-group-anagrams)
+- [x] [Group Anagrams](/neetcode-roadmap/arrays-hashing/MEDIUM-group-anagrams)
 - [ ] [Top K Frequent Elements](/neetcode-roadmap/arrays-hashing/MEDIUM-top-k-frequent-elements)
 - [ ] [Encode and Decode Strings](/neetcode-roadmap/arrays-hashing/MEDIUM-encode-and-decode-strings)
 - [ ] [Product of Array Except Self](/neetcode-roadmap/arrays-hashing/MEDIUM-product-of-array-except-self)
