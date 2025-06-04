@@ -9,7 +9,7 @@ My broad based interview preparation approach, based on the most important probl
    - [x] [Range Sum Query](/neetcode-roadmap/arrays-hashing/EASY-range-sum-query) (EASY)
    - [x] [Contains Duplicate](/neetcode-roadmap/arrays-hashing/EASY-contains-duplicate) (EASY)
    - [x] [Group Anagrams](/neetcode-roadmap/arrays-hashing/MEDIUM-group-anagrams) (MEDIUM)
-   - [ ] [Top K Frequent Elements](/neetcode-roadmap/arrays-hashing/MEDIUM-top-k-frequent-elements) (MEDIUM)
+   - [x] [Top K Frequent Elements](/neetcode-roadmap/arrays-hashing/MEDIUM-top-k-frequent-elements) (MEDIUM)
 
 2. [**Two Pointers**](/neetcode-roadmap/two-pointers/)
    - [x] [Valid Palindrome](/neetcode-roadmap/two-pointers/EASY-valid-palindrome) (EASY)
@@ -17,7 +17,7 @@ My broad based interview preparation approach, based on the most important probl
    - [ ] [3Sum](/neetcode-roadmap/two-pointers/MEDIUM-3sum) (MEDIUM)
 
 3. [**Sliding Window**](/neetcode-roadmap/sliding-window)
-   - [ ] [Best Time to Buy and Sell Stock](/neetcode-roadmap/sliding-window/EASY-best-time-to-buy-and-sell-stock) (EASY)
+   - [x] [Best Time to Buy and Sell Stock](/neetcode-roadmap/sliding-window/EASY-best-time-to-buy-and-sell-stock) (EASY)
    - [ ] [Longest Substring Without Repeating Characters](/neetcode-roadmap/sliding-window/MEDIUM-longest-substring-without-repeating-characters) (MEDIUM)
 
 4. **Stack**
@@ -107,7 +107,7 @@ Foundation of problem-solving with arrays and hash-based data structures
 - [ ] [Valid Anagram](/neetcode-roadmap/arrays-hashing/EASY-valid-anagram)
 - [x] [Two Sum](/neetcode-roadmap/arrays-hashing/EASY-two-sum)
 - [x] [Group Anagrams](/neetcode-roadmap/arrays-hashing/MEDIUM-group-anagrams)
-- [ ] [Top K Frequent Elements](/neetcode-roadmap/arrays-hashing/MEDIUM-top-k-frequent-elements)
+- [x] [Top K Frequent Elements](/neetcode-roadmap/arrays-hashing/MEDIUM-top-k-frequent-elements)
 - [ ] [Encode and Decode Strings](/neetcode-roadmap/arrays-hashing/MEDIUM-encode-and-decode-strings)
 - [ ] [Product of Array Except Self](/neetcode-roadmap/arrays-hashing/MEDIUM-product-of-array-except-self)
 - [ ] [Valid Sudoku](/neetcode-roadmap/arrays-hashing/MEDIUM-valid-sudoku)
@@ -127,7 +127,7 @@ Efficient traversal techniques using multiple pointers
 
 Dynamic window techniques for substring and subarray problems
 
-- [ ] [Best Time to Buy and Sell Stock](/neetcode-roadmap/sliding-window/EASY-best-time-to-buy-and-sell-stock)
+- [x] [Best Time to Buy and Sell Stock](/neetcode-roadmap/sliding-window/EASY-best-time-to-buy-and-sell-stock)
 - [ ] [Longest Substring Without Repeating Characters](/neetcode-roadmap/sliding-window/MEDIUM-longest-substring-without-repeating-characters)
 - [ ] [Longest Repeating Character Replacement](/neetcode-roadmap/sliding-window/MEDIUM-longest-repeating-character-replacement)
 - [ ] [Permutation in String](/neetcode-roadmap/sliding-window/MEDIUM-permutation-in-string)
