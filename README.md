@@ -21,7 +21,7 @@ My broad based interview preparation approach, based on the most important probl
    - [ ] [Longest Substring Without Repeating Characters](/neetcode-roadmap/sliding-window/MEDIUM-longest-substring-without-repeating-characters) (MEDIUM)
 
 4. **Stack**
-   - [ ] [Valid Parentheses](/neetcode-roadmap/stack/EASY-valid-parentheses) (EASY)
+   - [x] [Valid Parentheses](/neetcode-roadmap/stack/EASY-valid-parentheses) (EASY)
    - [ ] [Daily Temperatures](/neetcode-roadmap/stack/MEDIUM-daily-temperatures) (MEDIUM)
 
 5. **Binary Search**
@@ -138,7 +138,7 @@ Dynamic window techniques for substring and subarray problems
 
 LIFO data structure applications and monotonic stack patterns
 
-- [ ] [Valid Parentheses](/neetcode-roadmap/stack/EASY-valid-parentheses)
+- [x] [Valid Parentheses](/neetcode-roadmap/stack/EASY-valid-parentheses)
 - [ ] [Min Stack](/neetcode-roadmap/stack/MEDIUM-min-stack)
 - [ ] [Evaluate Reverse Polish Notation](/neetcode-roadmap/stack/MEDIUM-evaluate-reverse-polish-notation)
 - [ ] [Generate Parentheses](/neetcode-roadmap/stack/MEDIUM-generate-parentheses)
