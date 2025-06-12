@@ -25,7 +25,7 @@ My broad based interview preparation approach, based on the most important probl
    - [ ] [Daily Temperatures](/neetcode-roadmap/stack/MEDIUM-daily-temperatures) (MEDIUM)
 
 5. **Binary Search**
-   - [ ] [Binary Search](/neetcode-roadmap/binary-search/EASY-binary-search) (EASY)
+   - [x] [Binary Search](/neetcode-roadmap/binary-search) (EASY)
    - [ ] [Search in Rotated Sorted Array](/neetcode-roadmap/binary-search/MEDIUM-search-in-rotated-sorted-array) (MEDIUM)
 
 6. **Linked List**
@@ -150,7 +150,7 @@ LIFO data structure applications and monotonic stack patterns
 
 Efficient search algorithms and their applications
 
-- [ ] [Binary Search](/neetcode-roadmap/binary-search/EASY-binary-search)
+- [x] [Binary Search](/neetcode-roadmap/binary-search)
 - [ ] [Search a 2D Matrix](/neetcode-roadmap/binary-search/MEDIUM-search-a-2d-matrix)
 - [ ] [Koko Eating Bananas](/neetcode-roadmap/binary-search/MEDIUM-koko-eating-bananas)
 - [ ] [Find Minimum in Rotated Sorted Array](/neetcode-roadmap/binary-search/MEDIUM-find-minimum-in-rotated-sorted-array)
