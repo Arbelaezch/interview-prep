@@ -29,7 +29,7 @@ My broad based interview preparation approach, based on the most important probl
    - [ ] [Search in Rotated Sorted Array](/neetcode-roadmap/binary-search/MEDIUM-search-in-rotated-sorted-array) (MEDIUM)
 
 6. **Linked List**
-   - [ ] [Reverse Linked List](/neetcode-roadmap/linked-list/EASY-reverse-linked-list) (EASY)
+   - [x] [Reverse Linked List](/neetcode-roadmap/linked-list/EASY-reverse-linked-list) (EASY)
    - [ ] [Merge Two Sorted Lists](/neetcode-roadmap/linked-list/EASY-merge-two-sorted-lists) (EASY)
 
 7. **Trees**
@@ -162,7 +162,7 @@ Efficient search algorithms and their applications
 
 Pointer manipulation and linked list operations
 
-- [ ] [Reverse Linked List](/neetcode-roadmap/linked-list/EASY-reverse-linked-list)
+- [x] [Reverse Linked List](/neetcode-roadmap/linked-list/EASY-reverse-linked-list)
 - [ ] [Merge Two Sorted Lists](/neetcode-roadmap/linked-list/EASY-merge-two-sorted-lists)
 - [ ] [Reorder List](/neetcode-roadmap/linked-list/MEDIUM-reorder-list)
 - [ ] [Remove Nth Node From End of List](/neetcode-roadmap/linked-list/MEDIUM-remove-nth-node-from-end-of-list)
